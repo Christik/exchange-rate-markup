@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('./_reset.css');
+@import url('./_variables.css');
+@import url('./_common.css');
+
+@import url('./components/_typography.css');
+@import url('./components/_currency.css');
+@import url('./components/_swap.css');
+@import url('./components/_rate.css');
+@import url('./components/_app.css');

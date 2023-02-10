@@ -1,0 +1,79 @@
+/* ====================
+	Currency
+==================== */
+
+.currency {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: .5rem 1rem;
+	min-height: 4rem;
+	border-radius: .5rem;
+	background: var(--color-bg-secondary);
+}
+
+.currency__select {
+	margin-left: -.5rem;
+	padding: .25rem 1.2rem .25rem .5rem;
+	border: none;
+	border-radius: 0%;
+	box-shadow: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	color: inherit;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.25;
+	background: transparent url('../../img/arrow-down.svg') no-repeat 100% 50%;
+	background-size: 1.2rem auto;
+	cursor: pointer;
+}
+
+/* Hide arrow in IE */
+.currency__select::-ms-expand {
+	display: none;
+}
+
+.currency__select:focus {
+	border: none;
+	box-shadow: none;
+	outline: none;
+}
+
+.currency__select option {
+	color: inherit;
+	font-weight: 500;
+	font-size: .8rem;
+}
+
+.currency__value {
+	flex-grow: 1;
+	width: 100%;
+	border: none;
+	color: inherit;
+	font-weight: 600;
+	font-size: 1.1rem;
+	letter-spacing: .02em;
+	text-align: right;
+	background: none;
+	outline: none;
+}
+
+.currency__value::-webkit-outer-spin-button,
+.currency__value::-webkit-inner-spin-button {
+	margin-left: .5rem;
+}
+
+/* ====================
+	Currency
+==================== */
+
+.currency--accent {
+	color: var(--color-text-inverted);
+	background: var(--color-bg-accent);
+}
+
+.currency--accent .currency__select {
+	background-image: url('../../img/arrow-down-white.svg');
+}

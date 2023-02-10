@@ -1,0 +1,16 @@
+/* ====================
+	Rate
+==================== */
+
+.rate {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 2.5rem;
+	padding: .5rem 1rem;
+	border: solid 1px var(--color-border-primary);
+	border-radius: .5rem;
+	font-size: .7rem;
+	font-weight: 600;
+	background: var(--color-bg-tertiary);
+}
